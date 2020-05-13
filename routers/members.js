@@ -13,6 +13,15 @@ router.get('/juan-carlos-aguilar-rincon', (req, res, next) => {
   });
 });
 
+router.get('/teresa-carbajal', (req, res, next) => { // Change by your full name
+  res.render('members/show', {
+    name: 'Teresa Carbajal', // Change by your full name
+    org: 'Laboratoria', // Change by your full name
+    github: 'TeresaC21', // Change by your github user
+    photo: '/images/members/tech.io.git.png' //Change by your image
+  });
+});
+
 router.get('/josseline-acosta-martinez', (req, res, next) => { // Change by your full name
   res.render('members/show', {
     name: 'Josseline Acosta',// Change by your full name
