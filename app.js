@@ -3,6 +3,8 @@ const path = require('path');
 
 const app = express();
 
+let port = process.env.PORT || 3000;
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug')
 
@@ -14,4 +16,5 @@ app.get('/', (req, res, next) => {
 
 app.listen(3000, () => {
   console.log('Github Travis Demo started!');
+  console.log('Application running on port ' + port);;
 });
