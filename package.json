@@ -1,0 +1,20 @@
+{
+  "name": "github-travis-demo",
+  "version": "1.0.0",
+  "description": "demo app in nodejs to test github integrations",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "jcaguila@mx1.ibm.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "mocha": "^7.1.2",
+    "chai": "^4.2.0"
+  }
+}
