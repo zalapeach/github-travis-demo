@@ -4,7 +4,7 @@
   "description": "demo app in nodejs to test github integrations",
   "main": "app.js",
   "engines": {
-    "node": "14.2.x"
+    "node": "12.x"
   },
   "scripts": {
     "start": "node app.js"
