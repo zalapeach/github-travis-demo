@@ -48,6 +48,7 @@ describe('/ana-karen-ramirez-nuñez', () => { // Change by your full name
       .then((res) => {
         expect(res.status).to.equal(200);
       });
+  });
     
   it('returns the html file', () => {
     return chai.request(app)
@@ -55,17 +56,16 @@ describe('/ana-karen-ramirez-nuñez', () => { // Change by your full name
       .then((res) => {
         expect(res).to.be.html;
       });
-    });
   });
 });
     
 describe('/majo-aquino', () => { // Change by your full name
   it('returns a status code 200', () => {
     return chai.request(app)
-    .get('/members/majo-aquino') // Change by your full name
-    .then((res) => {
-      expect(res.status).to.equal(200);
-    });
+      .get('/members/majo-aquino') // Change by your full name
+      .then((res) => {
+        expect(res.status).to.equal(200);
+      });
   });
 
   it('returns the html file', () => {
@@ -74,6 +74,5 @@ describe('/majo-aquino', () => { // Change by your full name
       .then((res) => {
         expect(res).to.be.html;
       });
-    });
   });
 });
