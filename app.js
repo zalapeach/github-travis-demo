@@ -10,11 +10,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug')
 
-app.get('/', (req, res, next) => {
-  res.render('main');
-});
+app.use('/', require('./routers/main'));
+app.use('/members', require('./routers/members'));
 
 app.listen(port, () => {
   console.log('Github Travis Demo started!');
   console.log('Application running on port ' + port);;
 });
+
+module.exports = app;

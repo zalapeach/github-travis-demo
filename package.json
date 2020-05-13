@@ -7,7 +7,8 @@
     "node": "14.2.x"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "npx mocha ./tests/**/*_spec.js"
   },
   "author": "jcaguila@mx1.ibm.com",
   "license": "ISC",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "nodemon": "^2.0.3",
     "mocha": "^7.1.2",
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0"
   }
 }

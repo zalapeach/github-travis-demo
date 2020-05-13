@@ -1,0 +1,22 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='/images/favicon.png')
+    title Github Travis Demo App
+    link(href='/stylesheets/bootstrap.min.css', rel='stylesheet')
+  body.text-center.bg-info
+    .d-flex.flex-column.flex-md-row.align-items-center.p-3.px-md-4.mb-3.bg-white.border-bottom.shadow-sm
+      h5.my-0.mr-md-auto.font-weight-normal Github Travis Demo
+      nav.my-2.my-md-0.mr-md-3
+        a.p-2.text-dark(href='/') Home
+      a.btn.btn-outline-primary(href='/members') Members
+    block content
+    footer.pt-4.my-md-5-pt-md-5-border-top
+      .row
+        .col-12.col-md
+          small.d-block.mb-3 2020 Github Travis Demo
