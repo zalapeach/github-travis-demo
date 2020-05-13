@@ -20,6 +20,12 @@ router.get('/ana-karen-ramirez-nuñez', (req, res, next) => { // Change by your 
     github: 'karenlabo',// Change by your github user
     photo: '/images/members/KarenRamirez_3.jpeg' //Change by your image
 
+router.get('/majo-aquino', (req, res, next) => { // Change by your full name
+  res.render('members/show', {
+    name: 'Majo Aquino',// Change by your full name
+    org: 'Laboratoria',// Change by your full name
+    github: 'majoaquino99',// Change by your github user
+    photo: '/images/members/majoaquino.jpg' //Change by your image    
   });
 });
 
