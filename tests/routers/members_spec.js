@@ -52,7 +52,7 @@ describe('/teresa-carbajal', () => { // Change by your full name
 
   it('returns the html file', () => {
     return chai.request(app)
-      .get('/members/your-full-name-route') // Change by your full name
+      .get('/members/teresa-carbajal') // Change by your full name
       .then((res) => {
         expect(res).to.be.html;
       });
