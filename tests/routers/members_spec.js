@@ -55,9 +55,6 @@ describe('/ana-karen-ramirez-nuñez', () => { // Change by your full name
       .then((res) => {
         expect(res).to.be.html;
       });
-    .get('/members/ana-karen-ramirez-nuñez') // Change by your full name
-    .then((res) => {
-      expect(res).to.be.html;
     });
   });
 });
