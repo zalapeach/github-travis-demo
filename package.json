@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "npx mocha ./tests/**/*_spec.js --exit"
+    "test": "npx mocha ./tests/**/*_spec.js --exit",
+    "dev": "npx nodemon app.js"
   },
   "author": "jcaguila@mx1.ibm.com",
   "license": "ISC",
