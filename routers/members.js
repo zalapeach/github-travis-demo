@@ -13,7 +13,7 @@ router.get('/juan-carlos-aguilar-rincon', (req, res, next) => {
   });
 });
 
-router.get('/your-full-name-route', (req, res, next) => { // Change by your full name
+router.get('/majo-aquino', (req, res, next) => { // Change by your full name
   res.render('members/show', {
     name: 'Majo Aquino',// Change by your full name
     org: 'Laboratoria',// Change by your full name
